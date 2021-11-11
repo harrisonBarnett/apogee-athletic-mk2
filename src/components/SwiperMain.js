@@ -34,7 +34,8 @@ const SwiperMain = () => {
             clickable: true,
             dynamicBullets: true}}
         mousewheel={{
-            releaseOnEdges: true
+            releaseOnEdges: true,
+            forceToAxis: true
         }}>
             <SwiperSlide 
             id='section-hero'

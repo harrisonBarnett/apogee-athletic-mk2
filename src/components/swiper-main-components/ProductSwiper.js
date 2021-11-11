@@ -1,23 +1,22 @@
 import React from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import SwiperCore, { Autoplay } from 'swiper'
+import SwiperCore, { Autoplay, Mousewheel } from 'swiper'
 
 import "swiper/swiper-bundle.min.css";
 import 'swiper/swiper.min.css'
 
-SwiperCore.use([ Autoplay ])
+SwiperCore.use([ Autoplay, Mousewheel ])
 
 const ProductSwiper = () => {
     return (
         <Swiper 
         className='swiper-product'
         direction='horizontal'
-        modules={[ Autoplay ]}
+        modules={[ Autoplay, Mousewheel ]}
         spaceBetween={50}
-        autoplay={{
-            delay: 2500,
-            disableOnInteraction: true
+        mousewheel={{
+            forceToAxis: true
         }}
         >
             <SwiperSlide className='swiper-slide-product'>
