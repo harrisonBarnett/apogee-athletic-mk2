@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Hero = () => {
+const Hero = props => {
     return (
-        <h3 className='title' id='title'>
+        <h3 className={props.showTitle} id='title'>
             placeholder title
         </h3>
 

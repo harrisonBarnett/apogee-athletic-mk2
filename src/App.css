@@ -16,6 +16,18 @@ html {
 ::-webkit-scrollbar {
   display: none;
 }
+* h1,
+* h2, 
+* h3, 
+* p,
+* ul,
+* li,
+* a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
 .swiper-slide {
   height: 100vh;
   display: flex;
@@ -27,6 +39,9 @@ html {
   -6px -6px 6px rgba(0,0,0,.15);
   background: pink;
 }
+.swiper-pagination-bullet-active {
+  background: rgb(250, 250, 250) !important;
+}
 .swiper-main {
   height: 100vh;
   width: 100%;
@@ -37,7 +52,6 @@ html {
 .swiper-main-slide {
   margin: 0 auto;
   max-width: 1200px;
-
 }
 
 /* HERO */
@@ -83,4 +97,14 @@ html {
 }
 .swiper-slide-product {
   background: white;
+}
+/* CONTACT */
+#section-contact {
+  position: relative;
+}
+/* FOOTER */
+#footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

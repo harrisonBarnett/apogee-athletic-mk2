@@ -37,17 +37,21 @@ const SwiperMain = () => {
             releaseOnEdges: true
         }}>
             <SwiperSlide 
-            className='swiper-main-slide' 
-            id='section-hero'>
-                <Hero />
+            id='section-hero'
+            className='swiper-main-slide'>
+                {({ isActive }) => (
+                <Hero showTitle={isActive ? 'title' : 'title-off'} />)}
             </SwiperSlide>
             <SwiperSlide className='swiper-main-slide'>
+                {/* TODO: ternary to set name of play button */}
                 <Video />
             </SwiperSlide>
             <SwiperSlide className='swiper-main-slide'>
                 <ProductSwiper />
             </SwiperSlide>
-            <SwiperSlide className='swiper-main-slide'>
+            <SwiperSlide
+            id='section-contact' 
+            className='swiper-main-slide'>
                 <Contact />
             </SwiperSlide>
         </Swiper>
