@@ -43,9 +43,12 @@ const SwiperMain = () => {
                 {({ isActive }) => (
                 <Hero showTitle={isActive ? 'title' : 'title-off'} />)}
             </SwiperSlide>
-            <SwiperSlide className='swiper-main-slide'>
+            <SwiperSlide
+            id='section-video' 
+            className='swiper-main-slide'>
                 {/* TODO: ternary to set name of play button */}
-                <Video />
+                {({ isActive }) => (
+                <Video showPlayButton={isActive ? 'play-button-on' : 'play-button-off'} />)}
             </SwiperSlide>
             <SwiperSlide className='swiper-main-slide'>
                 <ProductSwiper />

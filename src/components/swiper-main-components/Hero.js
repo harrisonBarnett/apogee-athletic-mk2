@@ -1,10 +1,15 @@
 import React from 'react';
 
+import Logo from '../../static/images/apogee-athletic-white-words-outline.png'
+
 const Hero = props => {
     return (
-        <h3 className={props.showTitle} id='title'>
-            placeholder title
-        </h3>
+        <img 
+        className={props.showTitle} 
+        id='title'
+        src={Logo}
+        alt='White outlined Apogee logo'>
+        </img>
 
     );
 };

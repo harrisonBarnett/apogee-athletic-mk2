@@ -1,9 +1,15 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom'
+import HomeImg from '../../static/images/apogee-ig-logo-orbit.png'
 
 const Footer = () => {
     return (
         <div id='footer'>
-            <p>footer</p> 
+            <NavLink 
+            exact to='/'
+            id='home-btn'>
+                <img id='home-btn-img' src={HomeImg}></img>
+            </NavLink>
         </div>
     );
 };
