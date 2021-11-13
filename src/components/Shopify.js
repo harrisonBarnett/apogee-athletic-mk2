@@ -84,6 +84,7 @@ class Shopify extends Component {
   render() {
     return (
         <>
+        <button className="App__view-cart" onClick={()=> this.setState({isCartOpen: true})}>Cart</button>
         <Products
           products={this.state.products}
           client={this.props.client}
