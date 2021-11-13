@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'
-import HomeImg from '../../static/images/apogee-ig-logo-orbit.png'
+import HomeImg from '../../static/images/assets/apogee-ig-logo-orbit.png'
 
 const Footer = () => {
     return (

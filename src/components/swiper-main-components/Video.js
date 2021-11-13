@@ -1,6 +1,6 @@
 import React from 'react';
-import PlayBtn from '../../static/images/play_circle_outline_white_24dp.svg'
-import FeatureVideo from '../../static/images/hero-video.mp4'
+import PlayBtn from '../../static/images/assets/play_circle_outline_white_24dp.svg'
+import FeatureVideo from '../../static/images/assets/hero-video.mp4'
 
 const Video = props => {
     const playVideo = () => {

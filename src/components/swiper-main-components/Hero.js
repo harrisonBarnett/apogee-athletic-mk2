@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from '../../static/images/apogee-athletic-white-words-outline.png'
+import Logo from '../../static/images/assets/apogee-athletic-words.svg'
 
 const Hero = props => {
     return (
