@@ -24,8 +24,6 @@ const Video = props => {
         onClick={playVideo}></img>
         <iframe 
             className='feature-video'
-            width="560" 
-            height="315" 
             src="https://www.youtube.com/embed/1wnE4vF9CQ4" 
             frameborder="0" 
             allowfullscreen

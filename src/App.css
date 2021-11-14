@@ -205,6 +205,53 @@ html {
 #section-contact {
   position: relative;
 }
+#listen-grid {
+  display: flex;
+}
+.listen-img {
+  position: relative;
+  height: 10vmax;
+  width: 10vmax;
+
+  background-position: center;
+  background-size: contain;
+}
+.listen-img::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  height: 90%;
+  width: 90%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: white;
+}
+.listen-img::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: -2;
+  height: 100%;
+  width: 100%;
+}
+#spotify-btn::after {
+  background: #1db954;
+}
+#apple-btn::after {
+  background: #9933cc;
+}
+#podcast-addict-btn::after {
+  background: #f4842d;
+}
+#youtube-btn::before {
+  height: 50%;
+}
+#youtube-btn::after {
+  background: #ff0000;
+}
 /* FOOTER */
 #footer {
   position: absolute;
@@ -221,6 +268,7 @@ html {
 #home-btn-img {
   height: 4vmax;
   width: 4vmax;
+  margin-left: 2vmax;
 }
 /* SHOP */
 #section-shop {
