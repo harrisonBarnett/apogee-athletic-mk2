@@ -46,7 +46,6 @@ const SwiperMain = () => {
             <SwiperSlide
             id='section-video' 
             className='swiper-main-slide'>
-                {/* TODO: ternary to set name of play button */}
                 {({ isActive }) => (
                 <Video showPlayButton={isActive ? 'play-button-on' : 'play-button-off'} />)}
             </SwiperSlide>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, { Autoplay, Mousewheel } from 'swiper'
@@ -19,14 +19,20 @@ const ProductSwiper = () => {
             forceToAxis: true
         }}
         >
-            <SwiperSlide className='swiper-slide-product'>
+            <SwiperSlide
+            id='product-slide-1' 
+            className='swiper-slide-product'>
                 <h1>slide 1</h1>
                 <NavLink to='/shop'><button>SHOP</button></NavLink>
             </SwiperSlide>
-            <SwiperSlide className='swiper-slide-product'>
+            <SwiperSlide 
+            id='product-slide-2' 
+            className='swiper-slide-product'>
                 <h1>slide 2</h1>
             </SwiperSlide>
-            <SwiperSlide className='swiper-slide-product'>
+            <SwiperSlide 
+            id='product-slide-3' 
+            className='swiper-slide-product'>
                 <h1>slide 3</h1>
             </SwiperSlide>
         </Swiper>

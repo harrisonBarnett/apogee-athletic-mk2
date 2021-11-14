@@ -1,6 +1,5 @@
 import React from 'react';
 import PlayBtn from '../../static/images/assets/play_circle_outline_white_24dp.svg'
-import FeatureVideo from '../../static/images/assets/hero-video.mp4'
 
 const Video = props => {
     const playVideo = () => {
@@ -12,6 +11,7 @@ const Video = props => {
 
         const video = document.querySelector('.feature-video')
         setTimeout(() => {video.classList.toggle('show')}, 250)
+
     }
     return (
         <>
@@ -22,11 +22,16 @@ const Video = props => {
         src={PlayBtn}
         alt='play button' 
         onClick={playVideo}></img>
-        <video 
-        className='feature-video'
-        src={FeatureVideo} 
-        frameBorder='0'
-        controls></video>
+        <iframe 
+            className='feature-video'
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/1wnE4vF9CQ4" 
+            frameborder="0" 
+            allowfullscreen
+            >
+        </iframe>
+
         </>
     );
 };
