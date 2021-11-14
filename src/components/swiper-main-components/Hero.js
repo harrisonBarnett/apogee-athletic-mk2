@@ -8,7 +8,7 @@ const Hero = props => {
         className={props.showTitle} 
         id='title'
         src={Logo}
-        alt='White outlined Apogee logo'>
+        alt='Apogee Athletic branding'>
         </img>
 
     );
