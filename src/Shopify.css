@@ -2,34 +2,32 @@
  * ============================== */
  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
- *, *:before, *:after {
+ #section-shop *, #section-shop *:before, #section-shop *:after {
    box-sizing: border-box;
  }
 
- html {
-   font-size: 65%;
- }
  
- body {
+ #section-shop {
+  font-size: 65%;
    margin: 0;
    padding: 0;
    font-family: 'Roboto', sans-serif;
    font-weight: 400;
  }
  
- img {
+ #section-shop img {
    display: block;
    max-width: 100%;
    max-height: 100%;
  }
  
- h1 {
+ #section-shop h1 {
    font-weight: 300;
    margin: 0 0 15px;
    font-size: 3rem;
  }
  
- h2 {
+ #section-shop h2 {
    font-weight: 300;
    margin: 0;
    font-size: 2rem;
@@ -37,29 +35,6 @@
  
  /* BASE APP
   * ============================== */
- .App__header {
-   background-color: #222;
-   background-image: url('https://unsplash.it/1000/300?image=823');
-   background-size: cover;
-   color: white;
-   padding: 10px 10px;
- }
- 
- .App__nav{
-   width: 100%;
-   list-style: none;
- }
- 
- .App__customer-actions {
-   float: left;
-   padding: 10px;
- }
- 
- .App__title {
-   padding: 80px 20px;
-   text-align: center;
- }
- 
  .Product-wrapper {
    max-width: 900px;
    margin: 40px auto 0;
@@ -80,7 +55,7 @@
    color: white;
  }
  
- .button {
+ #section-shop .button {
    background-color: #2752ff;
    color: white;
    border: none;
@@ -89,12 +64,12 @@
    cursor: pointer;
  }
  
- .button:hover,
- .button:focus {
+ #section-shop .button:hover,
+ #section-shop .button:focus {
    background-color: #222222;
  }
  
- .button:disabled {
+ #section-shop .button:disabled {
    background: #bfbfbf;
    cursor: not-allowed;
  }
@@ -377,78 +352,7 @@
    width: 15%;
    margin-bottom: 10px;
  }
- 
- /* CUSTOMER AUTH
-  * ============================== */
- .CustomerAuth {
-   background: #2a2c2e;
-   display: none;
-   height: 100%;
-   left: 0;
-   opacity: 0;
-   padding: 0 0 65px;
-   top: 0;
-   width: 100%;
-   text-align: center;
-   color: #fff;
-   transition: opacity 150ms;
-   opacity: 1;
-   visibility: visible;
-   z-index: 1000;
-   position: fixed;
- }
- 
- .CustomerAuth--open {
-   display: block;
- }
- 
- .CustomerAuth__close {
-   position: absolute;
-   right: 9px;
-   top: 8px;
-   font-size: 35px;
-   color: #999;
-   border: none;
-   background: transparent;
-   transition: transform 100ms ease;
-   cursor: pointer;
- }
- 
- .CustomerAuth__body {
-   padding: 130px 30px;
-   width: 700px;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-   position: relative;
- }
- 
- .CustomerAuth__heading {
-   font-size: 24px;
-   font-weight: 500;
-   padding-bottom: 15px;
- }
- 
- .CustomerAuth__credential {
-   display: block;
-   position: relative;
-   margin-bottom: 15px;
-   border-radius: 3px;
- }
- 
- .CustomerAuth__input {
-   height: 60px;
-   padding: 24px 10px 20px;
-   border: 0px;
-   font-size: 18px;
-   background: #fff;
-   width: 100%;
- }
- 
- .CustomerAuth__submit {
-   float: right;
- }
- 
+
  .error {
    display: block;
    font-size: 15px;
