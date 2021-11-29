@@ -126,11 +126,22 @@ html {
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
-  gap: 1vmax;
+  gap: .25em;
 }
 #shop-now-btn {
-  padding: 2vmax;
-  border: 1px solid red;
+  margin-top: 2vmax;
+  padding: 4vmax 8vmax;
+  color: white;
+  background: rgba(0,0,0,.15);
+  box-shadow: 
+  1px 1px 4px rgba(0,0,0,.25),
+  4px 4px 12px rgba(0,0,0,.25);
+  transition: all 250ms ease;
+}
+#shop-now-btn:hover {
+  background: rgba(0,0,0,.5);
+  box-shadow: none;
+  transition: all 250ms ease;
 }
 #swipe-indicator {
   position: absolute;
@@ -308,7 +319,7 @@ html {
   justify-items: center;
   grid-template-columns: repeat(2, 1fr);
   gap: 1vmax;
-  transform: rotateY(-10deg);
+  transform: rotateY(8deg);
 }
 .listen-img,
 .listen-img:hover {

@@ -22,15 +22,7 @@ const Contact = () => {
     }
     return (
         <>
-            <div id='contact-left'>
-                <div id='signup-group'>
-                    <input 
-                    id='input-field'
-                    placeholder={'email...'}
-                    onChange={(event) => setNewEmail(event.target.value)}/>
-                    <button onClick={submitEmail}>stay updated</button>
-                </div>
-            </div>
+            
             <div id='contact-right'>
                 <div id='contact-copy-group'>
                     <p id='contact-copy'>listen along with the Apogee Fitness Podcast</p>
@@ -46,7 +38,15 @@ const Contact = () => {
                 </div>
                 
             </div>
-            
+            <div id='contact-left'>
+                <div id='signup-group'>
+                    <input 
+                    id='input-field'
+                    placeholder={'email...'}
+                    onChange={(event) => setNewEmail(event.target.value)}/>
+                    <button onClick={submitEmail}>stay updated</button>
+                </div>
+            </div>
             
             <Footer />
         </>
