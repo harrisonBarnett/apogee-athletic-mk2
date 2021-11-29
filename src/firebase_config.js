@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app"
 import { getFirestore } from '@firebase/firestore'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAlEuXGfet8mO-wsG5IpIrtKEHLlErm44c",
+    apiKey: process.env.FIREBASE_API_KEY,
     authDomain: "apogee-athletic-site.firebaseapp.com",
     projectId: "apogee-athletic-site",
     storageBucket: "apogee-athletic-site.appspot.com",
