@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, { Autoplay, Mousewheel } from 'swiper'
+import Chevron from '../../static/images/ui-icons/arrow-right.svg'
 
 import "swiper/swiper-bundle.min.css";
 import 'swiper/swiper.min.css'
@@ -22,8 +23,21 @@ const ProductSwiper = () => {
             <SwiperSlide
             id='product-slide-1' 
             className='swiper-slide-product'>
-                <h1>slide 1</h1>
-                <NavLink to='/shop'><button>SHOP</button></NavLink>
+                <div id='product-slide-1-left'>
+                    images images images
+                </div>
+                <div id='product-slide-1-right'>
+                    <div id='shop-now-container'>
+                        <p>FORM</p>
+                        <p>MEET</p>
+                        <p>FUNCTION</p>
+                        <NavLink to='/shop'><div id='shop-now-btn'>SHOP NOW</div></NavLink>
+                    </div>
+                </div>                
+                <div id='swipe-indicator'>
+                    <p>swipe for more</p>
+                    <img id='swipe-indicator-chevron' src={Chevron}/>
+                </div>
             </SwiperSlide>
             <SwiperSlide 
             id='product-slide-2' 

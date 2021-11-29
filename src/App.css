@@ -104,7 +104,50 @@ html {
   background: gray;
 }
 .swiper-slide-product {
+  position: relative;
+  background: #323232;
+}
+#product-slide-1 {
+  display: flex;
+}
+#product-slide-1-left,
+#product-slide-1-right {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+#product-slide-1-left {
   background: white;
+}
+#shop-now-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1vmax;
+}
+#shop-now-btn {
+  padding: 2vmax;
+  border: 1px solid red;
+}
+#swipe-indicator {
+  position: absolute;
+  right: 1vmax;
+  bottom: 1vmax;
+  display: flex;
+  align-items: center;
+}
+#swipe-indicator-chevron {
+  width: 4vmax;
+  animation-name: swipeAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes swipeAnimation {
+  0%{opacity: 0; transform: translateX(0);}
+  100%{opacity: .1; transform: translateX(20%);}
 }
 /* VIDEO */
 /* terrifying styles incoming */
