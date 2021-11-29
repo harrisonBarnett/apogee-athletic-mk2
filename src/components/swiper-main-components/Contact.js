@@ -22,14 +22,7 @@ const Contact = () => {
     }
     return (
         <>
-            <div id='contact-left'></div>
-            <div id='contact-right'>
-                <h2>follow along for updates</h2>
-                <div id='social-group'>
-                    <div className='social-img'></div>
-                    <div className='social-img'></div>
-                    <div className='social-img'></div>
-                </div>
+            <div id='contact-left'>
                 <div id='signup-group'>
                     <input 
                     id='input-field'
@@ -37,6 +30,8 @@ const Contact = () => {
                     onChange={(event) => setNewEmail(event.target.value)}/>
                     <button onClick={submitEmail}>stay updated</button>
                 </div>
+            </div>
+            <div id='contact-right'>
                 <div id='contact-copy-group'>
                     <p id='contact-copy'>listen along with the Apogee Fitness Podcast</p>
                     <p id='contact-copy-subtitle'>powered by Anchor.fm</p>

@@ -10,6 +10,11 @@ const Footer = () => {
             id='home-btn'>
                 <img id='home-btn-img' src={HomeImg}></img>
             </NavLink>
+            <div id='social-group'>
+                    <div className='social-img'></div>
+                    <div className='social-img'></div>
+                    <div className='social-img'></div>
+                </div>
         </div>
     );
 };

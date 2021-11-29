@@ -69,6 +69,8 @@ html {
   left: 50%;
   margin: 0 auto;
   padding: 0;
+  opacity: .8;
+  filter: drop-shadow(1px 1px 4px rgb(50,50,50,.5));
 
   /* text-stroke styles */
   /* text-align: center;
@@ -84,12 +86,12 @@ html {
 .title {
   top: 25%;
   transform: translate(-50%, 25%);
-  transition: all 500ms ease;
+  transition: all 500ms ease-out;
 }
 .title-off {
   top: -25%;
   transform: translate(-50%, -100%);
-  transition: all 500ms ease;
+  transition: all 500ms ease-out;
   overflow: hidden;
 }
 /* PRODUCT SWIPER */
@@ -132,12 +134,14 @@ html {
 .play-button-off {
   transform: translateY(-50%) scale(0);
   opacity: 0;
+  transition: all 350ms ease;
+
 }
 .play-button-on {
   z-index: 2;
   transform: translateY(-50%) scale(1);
   opacity: .25;
-  transition: all 250ms cubic-bezier(.12,.2,.15,1.97);
+  transition: all 350ms ease;
 }
 .play-button-on:hover {
   transform: translateY(-50%) scale(.95);
@@ -220,12 +224,19 @@ html {
   box-shadow: 2px 2px 8px rgba(0,0,0,.25);
 }
 #signup-group {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translateX(-50%);
   width: 50%;
   padding: 2em;
   display: flex;
   flex-direction: column;
   gap: 1vmax;
-  background: rgba(0,0,0,.25);
+  background: rgba(50, 50, 50, .5);
+  box-shadow: 
+    1px 1px 4px rgba(0,0,0,.25),
+    4px 4px 12px rgba(0,0,0,.25);
 }
 #signup-group button,
 #signup-group input {
@@ -241,16 +252,6 @@ html {
   gap: 2vmax;
 
   background: rgb(50, 50, 50);
-}
-#social-group {
-  display: flex;
-  gap: 1vmax;
-}
-.social-img {
-  height: 4vmax;
-  width: 4vmax;
-  border-radius: 50%;
-  background: black;
 }
 #listen-grid-perspective {
   perspective: 100px;
@@ -268,7 +269,7 @@ html {
 }
 .listen-img,
 .listen-img:hover {
-  transition: all 250ms cubic-bezier(.17,.09,.17,3.02);
+  transition: all 100ms ease;
 }
 .listen-img {
   height: 10vmax;
@@ -284,17 +285,27 @@ html {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 3;
+  z-index: 999;
+  display: flex;
+  align-items: center;
 
   background: black;
 }
-#home-btn {
-  margin: 2vmax;
-}
 #home-btn-img {
-  height: 4vmax;
-  width: 4vmax;
+  height: 6vmax;
+  width: 6vmax;
   margin-left: 2vmax;
+}
+#social-group {
+  margin: 0 2vmax 0 auto;
+  display: flex;
+  gap: 1vmax;
+}
+.social-img {
+  height: 2vmax;
+  width: 2vmax;
+  border-radius: 50%;
+  background: white;
 }
 /* SHOP */
 #section-shop {
