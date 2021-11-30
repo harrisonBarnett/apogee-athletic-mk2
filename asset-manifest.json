@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/apogee-athletic-mk2/static/css/main.2da9459c.chunk.css",
-    "main.js": "/apogee-athletic-mk2/static/js/main.ec7c8f36.chunk.js",
-    "main.js.map": "/apogee-athletic-mk2/static/js/main.ec7c8f36.chunk.js.map",
+    "main.css": "/apogee-athletic-mk2/static/css/main.7ef9313c.chunk.css",
+    "main.js": "/apogee-athletic-mk2/static/js/main.fbaae6ff.chunk.js",
+    "main.js.map": "/apogee-athletic-mk2/static/js/main.fbaae6ff.chunk.js.map",
     "runtime-main.js": "/apogee-athletic-mk2/static/js/runtime-main.c56c88c4.js",
     "runtime-main.js.map": "/apogee-athletic-mk2/static/js/runtime-main.c56c88c4.js.map",
     "static/css/2.b0305133.chunk.css": "/apogee-athletic-mk2/static/css/2.b0305133.chunk.css",
@@ -10,21 +10,27 @@
     "static/js/2.96e1e087.chunk.js.map": "/apogee-athletic-mk2/static/js/2.96e1e087.chunk.js.map",
     "index.html": "/apogee-athletic-mk2/index.html",
     "static/css/2.b0305133.chunk.css.map": "/apogee-athletic-mk2/static/css/2.b0305133.chunk.css.map",
-    "static/css/main.2da9459c.chunk.css.map": "/apogee-athletic-mk2/static/css/main.2da9459c.chunk.css.map",
+    "static/css/main.7ef9313c.chunk.css.map": "/apogee-athletic-mk2/static/css/main.7ef9313c.chunk.css.map",
     "static/js/2.96e1e087.chunk.js.LICENSE.txt": "/apogee-athletic-mk2/static/js/2.96e1e087.chunk.js.LICENSE.txt",
     "static/media/apogee-athletic-words-white.1e8d7f54.svg": "/apogee-athletic-mk2/static/media/apogee-athletic-words-white.1e8d7f54.svg",
     "static/media/apogee-athletic-words.dc73dca8.svg": "/apogee-athletic-mk2/static/media/apogee-athletic-words.dc73dca8.svg",
     "static/media/apple.fd1ba14e.png": "/apogee-athletic-mk2/static/media/apple.fd1ba14e.png",
     "static/media/arrow-right.2b8dbc63.svg": "/apogee-athletic-mk2/static/media/arrow-right.2b8dbc63.svg",
+    "static/media/bw-1.bbfeb123.JPG": "/apogee-athletic-mk2/static/media/bw-1.bbfeb123.JPG",
+    "static/media/bw-2.bd6a62b1.JPG": "/apogee-athletic-mk2/static/media/bw-2.bd6a62b1.JPG",
+    "static/media/bw-3.e4912b43.JPG": "/apogee-athletic-mk2/static/media/bw-3.e4912b43.JPG",
+    "static/media/bw-4.69053faf.JPG": "/apogee-athletic-mk2/static/media/bw-4.69053faf.JPG",
     "static/media/App.css": "/apogee-athletic-mk2/static/media/snatch.6de4ab12.JPG",
-    "static/media/instagram.b133e565.svg": "/apogee-athletic-mk2/static/media/instagram.b133e565.svg",
-    "static/media/play_circle_outline_white_24dp.a9aa4863.svg": "/apogee-athletic-mk2/static/media/play_circle_outline_white_24dp.a9aa4863.svg"
+    "static/media/facebook-icon-white.33ead344.svg": "/apogee-athletic-mk2/static/media/facebook-icon-white.33ead344.svg",
+    "static/media/insta-icon-white.b2f9ca87.svg": "/apogee-athletic-mk2/static/media/insta-icon-white.b2f9ca87.svg",
+    "static/media/play_circle_outline_white_24dp.a9aa4863.svg": "/apogee-athletic-mk2/static/media/play_circle_outline_white_24dp.a9aa4863.svg",
+    "static/media/twitter-icon-white.6043cd18.svg": "/apogee-athletic-mk2/static/media/twitter-icon-white.6043cd18.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c56c88c4.js",
     "static/css/2.b0305133.chunk.css",
     "static/js/2.96e1e087.chunk.js",
-    "static/css/main.2da9459c.chunk.css",
-    "static/js/main.ec7c8f36.chunk.js"
+    "static/css/main.7ef9313c.chunk.css",
+    "static/js/main.fbaae6ff.chunk.js"
   ]
 }
