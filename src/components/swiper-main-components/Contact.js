@@ -6,8 +6,6 @@ import Apple from '../../static/images/social-icons/apple.png'
 import PodcastAddict from '../../static/images/social-icons/podcastaddict.png'
 import Youtube from '../../static/images/social-icons/youtube-red.png'
 
-import Instagram from '../../static/images/social-icons/instagram.svg'
-
 import { db } from '../../firebase_config'
 import { collection, addDoc } from 'firebase/firestore'
 
@@ -25,8 +23,9 @@ const Contact = () => {
             
             <div id='contact-right'>
                 <div id='contact-copy-group'>
-                    <p id='contact-copy'>listen along with the Apogee Fitness Podcast</p>
-                    <p id='contact-copy-subtitle'>powered by Anchor.fm</p>
+                    <p>listen along</p>
+                    <p>with the Apogee Fitness Podcast</p>
+                    <p>powered by <a href='#' target='_blank'>Anchor.fm</a></p>
                 </div>
                 <div id='listen-grid-perspective'>
                     <div id='listen-grid'>
@@ -44,7 +43,7 @@ const Contact = () => {
                     id='input-field'
                     placeholder={'email...'}
                     onChange={(event) => setNewEmail(event.target.value)}/>
-                    <button onClick={submitEmail}>stay updated</button>
+                    <button onClick={submitEmail}>keep me updated</button>
                 </div>
             </div>
             

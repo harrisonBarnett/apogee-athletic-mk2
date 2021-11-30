@@ -33,9 +33,9 @@ const SwiperMain = () => {
         pagination={{
             clickable: true,
             dynamicBullets: true}}
-        mousewheel={{
-            releaseOnEdges: true,
-            forceToAxis: true
+        mousewheel={{        
+            forceToAxis: true,
+            releaseOnEdges: true
         }}>
             <SwiperSlide 
             id='section-hero'
