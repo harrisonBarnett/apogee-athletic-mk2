@@ -22,11 +22,6 @@ const Contact = () => {
         <>
             
             <div id='contact-right'>
-                <div id='contact-copy-group'>
-                    <p>listen along</p>
-                    <p>with the Apogee Fitness Podcast</p>
-                    <p>powered by <a href='#' target='_blank'>Anchor.fm</a></p>
-                </div>
                 <div id='listen-grid-perspective'>
                     <div id='listen-grid'>
                         <img src={Spotify} className='listen-img'></img>
@@ -35,7 +30,11 @@ const Contact = () => {
                         <img src={Youtube} className='listen-img'></img>
                     </div>
                 </div>
-                
+                <div id='contact-copy-group'>
+                    <p>listen along</p>
+                    <p>with the Apogee Fitness Podcast</p>
+                    <p>powered by <a href='#' target='_blank'>Anchor.fm</a></p>
+                </div>
             </div>
             <div id='contact-left'>
                 <div id='signup-group'>
