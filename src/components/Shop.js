@@ -15,8 +15,6 @@ const Shop = () => {
     return (
         <div id='section-shop'>
             <div id='shop-left'>
-                <h3
-                id='shop-title'>shop.</h3>
                 <Shopify client={client}/>
                 <img
                 id='shop-left-logo' 
