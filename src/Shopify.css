@@ -5,13 +5,9 @@
  #section-shop *, #section-shop *:before, #section-shop *:after {
    box-sizing: border-box;
  }
-
- 
  #section-shop {
-  font-size: 65%;
    margin: 0;
    padding: 0;
-   font-family: 'Roboto', sans-serif;
    font-weight: 400;
  }
  

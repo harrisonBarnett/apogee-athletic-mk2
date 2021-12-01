@@ -14,10 +14,11 @@ const Footer = () => {
                 <img id='home-btn-img' src={HomeImg}></img>
             </NavLink>
             <div id='social-group'>
-                    <a href='#' className='social-img'><img src={twitter} /></a>
-                    <a href='#' className='social-img'><img src={facebook} /></a>
-                    <a href='#' className='social-img'><img src={insta} /></a>
-                </div>
+                <NavLink to='/shop'><div id='footer-shop-btn'>SHOP</div></NavLink>
+                <a href='#' className='social-img'><img src={twitter} /></a>
+                <a href='#' className='social-img'><img src={facebook} /></a>
+                <a href='#' className='social-img'><img src={insta} /></a>
+            </div>
         </div>
     );
 };
