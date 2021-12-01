@@ -1,5 +1,8 @@
 :root {
   --primary-color: orange;
+
+  /* brand colorsa */
+  --brand-anchor: #5000B9;
 }
 html, body {
   position: relative;
@@ -121,7 +124,7 @@ html {
   height: 100%;
   opacity: 0;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   animation-name: imgFader;
   animation-duration: 24s;
   animation-iteration-count: infinite;
@@ -348,18 +351,15 @@ html {
   flex-direction: column;
 }
 #contact-copy-group p:nth-child(1){
+  margin-top: auto;
   font-size: 3em;
 }
-#contact-copy-group p:nth-child(2){}
 #contact-copy-group p:nth-child(3){
-  color: white;
-  opacity: .1;
-}
-#contact-copy-group p:nth-child(3) {
-  margin-top: auto;
+  color: rgba(255, 255, 255, .1);
+  opacity: 1;
 }
 #contact-copy-group p:nth-child(3) a{
-  color: white;
+  color: var(--brand-anchor);
 }
 #listen-grid-perspective {
   perspective: 100px;
