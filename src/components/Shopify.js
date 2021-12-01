@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Products from './shopify-components/Products';
 import Cart from './shopify-components/Cart';
+import cartIcon from '../static/images/ui-icons/cart.svg'
 
 class Shopify extends Component {
   constructor() {
@@ -84,7 +85,7 @@ class Shopify extends Component {
   render() {
     return (
         <>
-        <button className="App__view-cart" onClick={()=> this.setState({isCartOpen: true})}>Cart</button>
+        <button className="App__view-cart" onClick={()=> this.setState({isCartOpen: true})}><img src={cartIcon}/></button>
         <Products
           products={this.state.products}
           client={this.props.client}

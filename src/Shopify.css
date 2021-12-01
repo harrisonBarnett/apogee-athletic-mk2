@@ -50,7 +50,7 @@
  .App__view-cart {
    position: absolute;
    margin: 0;
-   padding: .75em 1.75em;
+   padding: 1em;
    top: 1%;
    left: 1%;
    font-size: 15px;
@@ -59,8 +59,14 @@
    background: rgba(35,35,35,.5);
    cursor: pointer;
    color: white;
+   border-radius: 50%;
  }
- 
+ .App__view-cart:hover {
+   background: var(--primary-color);
+ }
+ .App__view-cart img {
+   opacity: .75;
+ }
  #section-shop .button {
    display: block;
    margin-top: 1em;
@@ -136,7 +142,7 @@
    z-index: 5;
    height: 100%;
    width: 350px;
-   background-color: rgba(247, 233, 233, .7);
+   background-color: rgba(0,0,0, .8);
    display: flex;
    flex-direction: column;
    border-left: 1px solid #e5e5e5;
@@ -153,15 +159,19 @@
    right: 9px;
    top: 8px;
    font-size: 35px;
-   color: #999;
+   color: white;
    border: none;
    background: transparent;
    transition: transform 100ms ease;
    cursor: pointer;
+   opacity: .5;
  }
- 
+ .Cart__close:hover {
+   opacity: 1;
+ }
  .Cart__header {
    padding: 20px;
+   color: white;
    border-bottom: 1px solid #e5e5e5;
    flex: 0 0 auto;
    display: inline-block;
@@ -171,6 +181,7 @@
    flex: 1 0 auto;
    margin: 0;
    padding: 20px;
+   color: white;
  }
  
  .Cart__footer {
@@ -187,6 +198,7 @@
  
  .Cart-info {
    padding: 15px 20px 10px;
+   color: white;
  }
  
  .Cart-info__total {
@@ -205,7 +217,7 @@
  .pricing {
    margin-left: 5px;
    font-size: 16px;
-   color: black;
+   color: white;
  }
  
  /* LINE ITEMS
@@ -227,7 +239,6 @@
    background-size: contain;
    background-repeat: no-repeat;
    background-position: center center;
-   background-color: #e5e5e5;
    position: absolute;
  }
  
@@ -248,11 +259,11 @@
    font-weight: bold;
    font-size: 11px;
    line-height: 17px;
-   color: #767676;
+   color: white;
  }
  
  .Line-item__title {
-   color: #4E5665;
+   color: white;
    font-size: 15px;
    font-weight: 400;
  }
@@ -272,7 +283,7 @@
  }
  
  .Line-item__quantity-update {
-   color: #767676;
+   color: white;
    display: block;
    float: left;
    height: 21px;
@@ -293,7 +304,7 @@
  }
  
  .Line-item__quantity {
-   color: black;
+   color: white;
    width: 38px;
    height: 21px;
    line-height: 23px;
@@ -318,6 +329,7 @@
    background: 0;
    font-size: 20px;
    top: -4px;
+   color: white;
    opacity: 0.5;
  }
  
