@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react'
-import SwiperCore, { Autoplay, Mousewheel } from 'swiper'
+import SwiperCore, { Autoplay, Mousewheel, Keyboard } from 'swiper'
 import Chevron from '../../static/images/ui-icons/arrow-right.svg'
 import bw1 from '../../static/images/assets/bw-1.JPG'
 import bw2 from '../../static/images/assets/bw-2.JPG'
@@ -10,8 +10,10 @@ import bw4 from '../../static/images/assets/bw-4.JPG'
 
 import "swiper/swiper-bundle.min.css";
 import 'swiper/swiper.min.css'
+import 'swiper/components/keyboard'
 
-SwiperCore.use([ Autoplay, Mousewheel ])
+
+SwiperCore.use([ Autoplay, Mousewheel, Keyboard ])
 
 const ProductSwiper = () => {
     return (
@@ -19,12 +21,14 @@ const ProductSwiper = () => {
         className='swiper-product'
         direction='horizontal'
         nested={true}
-        modules={[ Autoplay, Mousewheel ]}
+        modules={[ Autoplay, Mousewheel, Keyboard ]}
         spaceBetween={50}
         mousewheel={{
             releaseOnEdges: true,        
         }}
-        >
+        keyboard={{
+            enabled: true
+        }}>
             <SwiperSlide
             id='product-slide-1' 
             className='swiper-slide-product'>

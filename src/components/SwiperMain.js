@@ -1,10 +1,11 @@
 import React from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import SwiperCore, { Pagination, Mousewheel, EffectCoverflow } from 'swiper'
+import SwiperCore, { Pagination, Mousewheel, Keyboard, EffectCoverflow } from 'swiper'
 
 import "swiper/swiper-bundle.min.css";
 import 'swiper/swiper.min.css'
+import 'swiper/components/keyboard'
 import "swiper/components/pagination/pagination.min.css";
 import "swiper/components/effect-coverflow/effect-coverflow.min.css";
 
@@ -13,7 +14,7 @@ import Video from './swiper-main-components/Video'
 import ProductSwiper from './swiper-main-components/ProductSwiper'
 import Contact from './swiper-main-components/Contact'
 
-SwiperCore.use([ Pagination, Mousewheel, EffectCoverflow ])
+SwiperCore.use([ Pagination, Mousewheel, Keyboard, EffectCoverflow ])
 
 const SwiperMain = () => {
     return (
@@ -36,7 +37,9 @@ const SwiperMain = () => {
         mousewheel={{        
             forceToAxis: true,
             releaseOnEdges: true
-        }}>
+        }}
+        keyboard={{
+            enabled: true        }}>
             <SwiperSlide 
             id='section-hero'
             className='swiper-main-slide'>
