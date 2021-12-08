@@ -40,9 +40,7 @@ const ProductSwiper = () => {
                 </div>
                 <div id='product-slide-1-right'>
                     <div id='shop-now-container'>
-                        <p>FUNCTION</p>
-                        <p>MEET</p>
-                        <p>FORM</p>
+                        <p>FUNCTION MEET FORM</p>
                         <NavLink to='/shop'><div id='shop-now-btn'>SHOP NOW</div></NavLink>
                     </div>
                 </div>                

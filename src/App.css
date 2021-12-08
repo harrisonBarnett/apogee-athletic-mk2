@@ -421,7 +421,8 @@ html {
 .social-img {
   height: 2vmax;
   width: 2vmax;
-  border-radius: 50%;
+  display: flex;
+  align-items: center;
 }
 .social-img,
 #footer-shop-btn {
@@ -433,7 +434,7 @@ html {
 }
 #footer-shop-btn {
   color: white;
-  font-size: 1.2em;
+  font-size: 2vmax;
 }
 /* SHOP */
 #section-shop {
