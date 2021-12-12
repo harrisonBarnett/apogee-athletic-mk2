@@ -3,16 +3,17 @@ import React from 'react';
 const ShoeMain = () => {
     return (
         <>
-        <div id='product-slide-2-left'>
-            <div id='product-slide-2-copy'>
-                <h2>meet the apogee 1</h2>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+            <div id='product-slide-2-left'>
+                <div id='product-slide-2-copy'>
+                    <h2>Meet the Apogee 1</h2>
+                    <p>When minimal doesn't necessarily mean simple.</p>
+                    <p>Fitness is achieved from the ground up, and while there's no substitution for proper body mechanics, you shouldn't let your shoes hold you back. The Apogee 1 provides just the right amount of insole support and lift in the heel to ensure that your ankles, knees and hips are in the right place during your most demanding workouts.</p>
+                    <p>Coming soon.</p>
+                </div>
             </div>
-        </div>
-        <div id='product-slide-2-right'>
-            <div id='product-slide-2-temp-img'>here will be a gif of a rotating shoe</div>
-        </div>
+            <div id='product-slide-2-right'>
+                <div id='product-slide-2-temp-img'>here will be a gif of a rotating shoe</div>
+            </div>
         </>
     );
 };
