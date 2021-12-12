@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { NavLink } from 'react-router-dom';
+
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, { Autoplay, Mousewheel, Keyboard } from 'swiper'
-import Chevron from '../../static/images/ui-icons/arrow-right.svg'
-import bw1 from '../../static/images/assets/bw-1.JPG'
-import bw2 from '../../static/images/assets/bw-2.JPG'
-import bw3 from '../../static/images/assets/bw-3.JPG'
-import bw4 from '../../static/images/assets/bw-4.JPG'
+
+import ShopNow from './swiper-product-components/ShopNow'
+import ShoeMain from './swiper-product-components/ShoeMain'
+import ShoeDetail from './swiper-product-components/ShoeDetail'
 
 import "swiper/swiper-bundle.min.css";
 import 'swiper/swiper.min.css'
@@ -30,33 +29,19 @@ const ProductSwiper = () => {
             enabled: true
         }}>
             <SwiperSlide
-            id='product-slide-1' 
-            className='swiper-slide-product'>
-                <div id='product-slide-1-left'>
-                    <div className='product-slide-1-img' style={{backgroundImage: `url(${bw1})`}}></div>
-                    <div className='product-slide-1-img' style={{backgroundImage: `url(${bw2})`}}></div>
-                    <div className='product-slide-1-img' style={{backgroundImage: `url(${bw3})`}}></div>
-                    <div className='product-slide-1-img' style={{backgroundImage: `url(${bw4})`}}></div>
-                </div>
-                <div id='product-slide-1-right'>
-                    <div id='shop-now-container'>
-                        <p>FUNCTION MEET FORM</p>
-                        <NavLink to='/shop'><div id='shop-now-btn'>SHOP NOW</div></NavLink>
-                    </div>
-                </div>                
-                <div id='swipe-indicator'>
-                    <img id='swipe-indicator-chevron' src={Chevron}/>
-                </div>
+            className='swiper-slide-product'
+            id='product-slide-1'>
+                <ShopNow />
             </SwiperSlide>
             <SwiperSlide 
             id='product-slide-2' 
             className='swiper-slide-product'>
-                <h1>slide 2</h1>
+                <ShoeMain />
             </SwiperSlide>
             <SwiperSlide 
             id='product-slide-3' 
             className='swiper-slide-product'>
-                <h1>slide 3</h1>
+                <ShoeDetail />
             </SwiperSlide>
         </Swiper>
     );
