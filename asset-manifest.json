@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/apogee-athletic-mk2/static/css/main.2d3e91a1.chunk.css",
-    "main.js": "/apogee-athletic-mk2/static/js/main.65e92498.chunk.js",
-    "main.js.map": "/apogee-athletic-mk2/static/js/main.65e92498.chunk.js.map",
+    "main.css": "/apogee-athletic-mk2/static/css/main.bd2793ca.chunk.css",
+    "main.js": "/apogee-athletic-mk2/static/js/main.3a555774.chunk.js",
+    "main.js.map": "/apogee-athletic-mk2/static/js/main.3a555774.chunk.js.map",
     "runtime-main.js": "/apogee-athletic-mk2/static/js/runtime-main.c56c88c4.js",
     "runtime-main.js.map": "/apogee-athletic-mk2/static/js/runtime-main.c56c88c4.js.map",
     "static/css/2.b0305133.chunk.css": "/apogee-athletic-mk2/static/css/2.b0305133.chunk.css",
-    "static/js/2.50fb861c.chunk.js": "/apogee-athletic-mk2/static/js/2.50fb861c.chunk.js",
-    "static/js/2.50fb861c.chunk.js.map": "/apogee-athletic-mk2/static/js/2.50fb861c.chunk.js.map",
+    "static/js/2.c9397926.chunk.js": "/apogee-athletic-mk2/static/js/2.c9397926.chunk.js",
+    "static/js/2.c9397926.chunk.js.map": "/apogee-athletic-mk2/static/js/2.c9397926.chunk.js.map",
     "index.html": "/apogee-athletic-mk2/index.html",
     "static/css/2.b0305133.chunk.css.map": "/apogee-athletic-mk2/static/css/2.b0305133.chunk.css.map",
-    "static/css/main.2d3e91a1.chunk.css.map": "/apogee-athletic-mk2/static/css/main.2d3e91a1.chunk.css.map",
-    "static/js/2.50fb861c.chunk.js.LICENSE.txt": "/apogee-athletic-mk2/static/js/2.50fb861c.chunk.js.LICENSE.txt",
+    "static/css/main.bd2793ca.chunk.css.map": "/apogee-athletic-mk2/static/css/main.bd2793ca.chunk.css.map",
+    "static/js/2.c9397926.chunk.js.LICENSE.txt": "/apogee-athletic-mk2/static/js/2.c9397926.chunk.js.LICENSE.txt",
     "static/media/apogee-athletic-words-white.1e8d7f54.svg": "/apogee-athletic-mk2/static/media/apogee-athletic-words-white.1e8d7f54.svg",
     "static/media/apogee-athletic-words.dc73dca8.svg": "/apogee-athletic-mk2/static/media/apogee-athletic-words.dc73dca8.svg",
     "static/media/apple.fd1ba14e.png": "/apogee-athletic-mk2/static/media/apple.fd1ba14e.png",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.c56c88c4.js",
     "static/css/2.b0305133.chunk.css",
-    "static/js/2.50fb861c.chunk.js",
-    "static/css/main.2d3e91a1.chunk.css",
-    "static/js/main.65e92498.chunk.js"
+    "static/js/2.c9397926.chunk.js",
+    "static/css/main.bd2793ca.chunk.css",
+    "static/js/main.3a555774.chunk.js"
   ]
 }
