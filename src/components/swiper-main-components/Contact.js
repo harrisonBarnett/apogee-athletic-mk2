@@ -37,13 +37,14 @@ const Contact = () => {
                 </div>
             </div>
             <div id='contact-left'>
-                <div id='signup-group'>
+                {/* consider an email signup form */}
+                {/* <div id='signup-group'>
                     <input 
                     id='input-field'
                     placeholder={'email...'}
                     onChange={(event) => setNewEmail(event.target.value)}/>
                     <button onClick={submitEmail}>keep me updated</button>
-                </div>
+                </div> */}
             </div>
             
             <Footer />

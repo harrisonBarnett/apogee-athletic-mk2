@@ -15,9 +15,9 @@ const Footer = () => {
             </NavLink>
             <div id='social-group'>
                 <NavLink to='/shop'><div id='footer-shop-btn'>SHOP</div></NavLink>
-                <a href='#' className='social-img'><img src={twitter} /></a>
-                <a href='#' className='social-img'><img src={facebook} /></a>
-                <a href='#' className='social-img'><img src={insta} /></a>
+                <a href='#'><img className='social-img' src={twitter} /></a>
+                <a href='#'><img className='social-img'src={facebook} /></a>
+                <a href='#'><img className='social-img' src={insta} /></a>
             </div>
         </div>
     );
